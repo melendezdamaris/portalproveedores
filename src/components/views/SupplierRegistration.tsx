@@ -317,7 +317,6 @@ export const SupplierRegistration: React.FC = () => {
     } catch (error) {
       console.error('❌ Error enviando registro:', error);
       alert(`❌ Error al registrar: ${error instanceof Error ? error.message : 'Error desconocido'}. Por favor, intenta nuevamente.`);
-      return { success: false, error: err?.message || 'Error desconocido' };
     }
   };
 
