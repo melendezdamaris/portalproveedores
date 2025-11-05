@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Navbar } from '../layout/Navbar';
 import { Sidebar } from '../layout/Sidebar';
 import { Dashboard } from '../views/Dashboard';
-import { SupplierRegistration } from '../views/SupplierRegistration';
+import  SupplierRegistration  from '../views/SupplierRegistration';
 import { DocumentsUpload } from '../views/DocumentsUpload';
 import { PaymentsView } from '../views/PaymentsView';
 import { DocumentsCenter } from '../views/DocumentsCenter';
